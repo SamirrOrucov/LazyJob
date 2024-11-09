@@ -1,0 +1,15 @@
+{
+  "name": "LazyJob",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "private": true
+,
+"scripts": {
+  "start:admin": "yarn workspace admin start",
+  "dev:web": "yarn workspace web dev"
+}
+}

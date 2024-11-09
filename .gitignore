@@ -1,0 +1,55 @@
+# Node modules
+/node_modules
+/apps/**/node_modules
+
+# Yarn and lock files
+yarn.lock
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS and editor specific files
+.DS_Store
+Thumbs.db
+*.swp
+.sass-cache/
+.vscode/
+.idea/
+*.iml
+
+# Build outputs
+/apps/web/.next
+/apps/web/out
+/apps/admin/build
+/apps/admin/dist
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+*.cover
+.nyc_output
+
+# Cache
+.cache/
+.next/
+dist/
+build/
